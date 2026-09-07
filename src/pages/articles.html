@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <analytics></analytics>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cтатьи</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  </head>
+  <body class="S_Articles">
+    <nav class="S_Menu">
+      <a class="A_MenuLogo" href="../index.html">цветочный.</a>
+      <div class="O_MenuLinks"></div>
+      <!-- <div class="W_SearchContainer">
+        <input type="text" class="A_SearchInput" placeholder="Растение" />
+        <button class="A_SearchButton" disabled>Поиск</button>
+        <div class="C_Dropdown"></div>
+      </div> -->
+      <div class="O_SearchContainer"></div>
+    </nav>
+
+    <main>
+      <!-- <h2>Все статьи</h2> -->
+
+      <section class="O_Swiper">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <article class="W_ArticleSlide">
+                <div class="W_SlideImageWrapper">
+                  <img
+                    class="A_SlideImage"
+                    src="../images/flowers/flower-1.svg"
+                  />
+                </div>
+
+                <div class="W_ArticlesCardContent">
+                  <h3 class="A_ArticlesCardHeader">
+                    Растения, опасные для&nbsp;питомцев
+                  </h3>
+
+                  <div class="C_ArticlesCardTags">
+                    <div class="A_ArticleCardTag">опасность</div>
+                    <div class="A_ArticleCardTag">домашние растения</div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="swiper-slide">
+              <article class="W_ArticleSlide">
+                <div class="W_SlideImageWrapper">
+                  <img
+                    src="../images/flowers/flower-5.svg"
+                    alt=""
+                    class="A_SlideImage"
+                  />
+                </div>
+                <div class="W_ArticlesCardContent">
+                  <h3 class="A_ArticlesCardHeader">Виды удобрений</h3>
+                  <div class="C_ArticlesCardTags">
+                    <div class="A_ArticleCardTag">удобрения</div>
+                    <div class="A_ArticleCardTag">гайд</div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="swiper-slide">
+              <article class="W_ArticleSlide">
+                <div class="W_SlideImageWrapper">
+                  <img
+                    src="../images/flowers/flower-3.svg"
+                    alt=""
+                    class="A_SlideImage"
+                  />
+                </div>
+                <div class="W_ArticlesCardContent">
+                  <h3 class="A_ArticlesCardHeader">
+                    Растения для начинающих цветоводов
+                  </h3>
+                  <div class="C_ArticlesCardTags">
+                    <div class="A_ArticleCardTag">растения</div>
+                    <div class="A_ArticleCardTag">что купить?</div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <section class="O_Articles"></section>
+    </main>
+
+    <footerPartial></footerPartial>
+      <script type="module" src="/javascripts/menubar.jsx"></script>
+    <script type="module" src="/javascripts/articles.js"></script>
+    <script type="module" src="/javascripts/basic.js"></script>
+    <script type="module" src="/javascripts/searchReact.jsx"></script>
+  </body>
+</html>

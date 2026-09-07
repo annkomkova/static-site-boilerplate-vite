@@ -1,0 +1,87 @@
+/* articles.html */
+.C_ArticlesCardTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10rem;
+}
+
+/* ______________styleguide___________ */
+.C_MainSectionLinks {
+  width: 16vw;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  background-color: #090227cc;
+  border-radius: 30rem;
+  padding: 10rem;
+}
+.C_MainSectionLinks a:active {
+  background-color: cornflowerblue;
+}
+
+/* ________________test___________ */
+.C_TestAnswerMessages {
+  display: flex;
+  flex-direction: column;
+  gap: 30rem;
+}
+
+.C_Icons {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10rem;
+  gap: 20rem;
+}
+.C_MainLinks {
+  display: flex;
+  padding: 10rem;
+  gap: 20rem;
+}
+.C_MainLinks a {
+  font-size: 20rem;
+  color: #efefef;
+  text-decoration: none;
+  transition: text-decoration 0.4s ease;
+}
+.C_MainLinks a:hover {
+  text-decoration: underline;
+  transition: text-decoration 0.8s ease;
+}
+.C_IndexSectionCards,
+.C_SearchResults {
+  display: flex;
+  justify-content: center;
+  gap: 30rem;
+  padding: 40rem 0;
+  flex-wrap: wrap;
+}
+.C_IndexSectionCardTags {
+  margin: 20rem 0;
+  display: flex;
+  gap: 10rem;
+}
+
+/* поиск */
+.C_Dropdown {
+  display: none;
+  flex-direction: column;
+  width: 300rem;
+  border: 2rem solid var(--button-basic-color);
+  position: absolute;
+  z-index: 1;
+  top: 22rem;
+  border-radius: 20rem;
+  padding-top: 40rem;
+  background-color: white;
+  overflow: hidden;
+}
+.C_Footer {
+  background-color: var(--bg-card-color);
+  color: white;
+  width: 100%;
+  border-radius: 40rem 40rem 0 0;
+  padding: 4vw 8vw;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,44 @@
+@media screen and (max-width: 1279px) {
+  .W_ArticlesCard {
+    width: calc(33% - 20rem);
+  }
+  .O_Swiper {
+    height: 500rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .O_Articles,
+  .O_Swiper {
+    width: 100%;
+  }
+  .O_Swiper {
+    height: 400rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  html {
+    font-size: calc(1vw / 7);
+  }
+  .W_ArticlesCard {
+    width: calc(50% - 10rem);
+  }
+  .A_ArticlesCardImage {
+    width: 200rem;
+  }
+  .W_ArticlesCardImageWrapper {
+    min-height: 412rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: calc(1vw / 5);
+  }
+  .W_ArticlesCard {
+    width: 100%;
+  }
+  .O_Articles,
+  .O_Swiper {
+    padding: 20rem;
+  }
+}

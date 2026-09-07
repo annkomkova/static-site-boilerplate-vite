@@ -1,0 +1,98 @@
+@keyframes spriteCrystalAnim {
+  0% {
+    background-position-y: 0;
+  }
+  8% {
+    background-position-y: -300rem;
+  }
+  16% {
+    background-position-y: -600rem;
+  }
+  24% {
+    background-position-y: -900rem;
+  }
+  32% {
+    background-position-y: -1200rem;
+  }
+  40% {
+    background-position-y: -1500rem;
+  }
+  48% {
+    background-position-y: -1800rem;
+  }
+  56% {
+    background-position-y: -2100rem;
+  }
+  64% {
+    background-position-y: -2400rem;
+  }
+  72% {
+    background-position-y: -2700rem;
+  }
+  80% {
+    background-position-y: -3000rem;
+  }
+  88% {
+    background-position-y: -3300rem;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .O_Aside {
+    display: none;
+  }
+  .O_MainSection {
+    width: 80%;
+    padding: 0 20rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .S_Main {
+    flex-direction: column;
+  }
+  .O_MainSection,
+  .O_Sidebar {
+    width: 100%;
+  }
+  .O_MainSection {
+    padding-bottom: 90rem;
+  }
+  .C_MainSectionLinks {
+    z-index: 2;
+    flex-direction: row;
+    width: 90%;
+    bottom: 10rem;
+    /* background-color: #09022775;
+    backdrop-filter: blur(4rem); */
+  }
+  /* .C_MainSectionLinks a {
+    background-color: #eeeeee75;
+    backdrop-filter: blur(4rem);
+  } */
+
+  .A_MainHeader {
+    font-size: 190rem;
+  }
+  .A_SectionHeader {
+    font-size: 92rem;
+    line-height: 1.5rem;
+    margin-bottom: 70rem;
+  }
+  .A_SectionDopHeader {
+    font-size: 70rem;
+    line-height: 54rem;
+    margin: 50rem 0;
+  }
+  .A_MainSectionText,
+  .A_HeaderLink {
+    font-size: 60rem;
+    line-height: 1.5;
+  }
+  .W_MainSectionBlock_column {
+    padding: 40rem 0 0 40rem;
+    gap: 40rem;
+  }
+  .W_MainSectionBlock_row {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,39 @@
+/* articles.html, styleguide */
+
+.S_Articles,
+.S_Styleguide {
+  background-color: #eee;
+}
+.S_Main {
+  display: flex;
+  padding: 60rem 0;
+}
+
+/* ________________test___________ */
+.S_Test {
+  padding: 20rem 80rem;
+  width: 100%;
+}
+/* стилия для заглушки */
+.S_IndexPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.S_IndexSection {
+  margin: 200rem 40rem;
+}
+.S_IndexSectionCard {
+  background-color: var(--bg-card-color);
+  border-radius: 40rem;
+  width: 1400rem;
+  margin: 0 auto;
+  padding: 40rem 0;
+}
+.S_Menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rem 40rem;
+}
