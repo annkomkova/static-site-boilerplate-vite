@@ -9,63 +9,63 @@ const outDir = path.resolve(__dirname, 'docs')
 const pages = {
   main: {
     file: 'index.html',
-    chunks: ['/javascripts/index.js', '/javascripts/allStyles.js']
+    chunks: ['/javascripts/index.js', '/javascripts/basic.js']
   },
   aloe: {
     file: 'pages/articles/aloe.html',
-    chunks: ['/javascripts/allStyles.js']
+    chunks: ['/javascripts/basic.js']
   },
   styleguide: {
     file: 'styleguide.html',
-    chunks: ['/javascripts/allStyles.js']
+    chunks: ['/javascripts/basic.js']
   },
   search: {
     file: 'search.html',
-    chunks: ['/javascripts/allStyles.js']
+    chunks: ['/javascripts/basic.js']
   },
   articles: {
     file: 'pages/articles.html',
-    chunks: ['/javascripts/allStyles.js']
+    chunks: ['/javascripts/basic.js']
   },
   dictionary: {
     file: 'pages/dictionary.html',
-    chunks: ['/javascripts/allStyles.js']
+    chunks: ['/javascripts/basic.js']
   },
   tests: {
     file: 'pages/tests.html',
-    chunks: ['/javascripts/allStyles.js']
+    chunks: ['/javascripts/basic.js']
   },
   theory: {
     file: 'pages/theory.html',
-    chunks: ['/javascripts/allStyles.js']
+    chunks: ['/javascripts/basic.js']
   },
   reactBasics: {
     file: 'pages/reactBasics.html',
-    chunks: ['/javascripts/allStyles.js']
+    chunks: ['/javascripts/basic.js']
   },
   article1: {
     file: 'pages/articles/article1.html',
-    chunks: ['/javascripts/allStyles.js']
+    chunks: ['/javascripts/basic.js']
   },
   cactus: {
     file: 'pages/articles/cactus.html',
-    chunks: ['/javascripts/allStyles.js']
+    chunks: ['/javascripts/basic.js']
   },
   monstera: {
     file: 'pages/articles/monstera.html',
-    chunks: ['/javascripts/allStyles.js']
+    chunks: ['/javascripts/basic.js']
   },
   orchidea: {
     file: 'pages/articles/orchidea.html',
-    chunks: ['/javascripts/allStyles.js']
+    chunks: ['/javascripts/basic.js']
   },
   sansevieria: {
     file: 'pages/articles/sansevieria.html',
-    chunks: ['/javascripts/allStyles.js']
+    chunks: ['/javascripts/basic.js']
   },
   test1: {
     file: 'pages/tests/test1.html',
-    chunks: ['/javascripts/allStyles.js']
+    chunks: ['/javascripts/basic.js']
   }
 }
 
